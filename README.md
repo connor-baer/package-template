@@ -43,9 +43,9 @@ npm i @madebyconnor/package-template
 `@madebyconnor/package-template` exports a function
 
 ```js
-import sayHello from '@madebyconnor/package-template';
+import { sayHello } from '@madebyconnor/package-template';
 
-sayHello('Tessa')
+sayHello('Tessa');
 
 /*
     returns:
